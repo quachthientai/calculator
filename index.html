@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+   <title>Calculator</title>
+</head>
+<body>
+   <div class="container">
+      <div class="center">
+         <div class="calculator">
+            <div class="display">
+               <input type="text" placeholder="0" max="5" id="display__screen" disabled>
+            </div>
+            <div class="button">
+               
+                  <input type="button" value="AC" class="input-button" id="button__clear"/>
+                  <input type="button" value="DEL" class="input-button" id="button__del">
+                  <input type="button" value="/" class="input-button button__operation">
+                  <input type="button" value="*" class="input-button button__operation">
+               
+               
+                  <input type="button" value="7" class="input-button button__num">
+                  <input type="button" value="8" class="input-button button__num">
+                  <input type="button" value="9" class="input-button button__num">
+                  <input type="button" value="-" class="input-button button__operation">
+               
+                  <input type="button" value="6" class="input-button button__num">
+                  <input type="button" value="5" class="input-button button__num">
+                  <input type="button" value="4" class="input-button button__num">
+                  <input type="button" value="+" class="input-button button__operation">
+               
+                  <input type="button" value="1" class="input-button button__num">
+                  <input type="button" value="2" class="input-button button__num">
+                  <input type="button" value="3" class="input-button button__num">
+               
+                  <input type="button" value="=" class="input-button" id="button__equal">
+                  <input type="button" value="0" id="num_0" class="input-button button__num">
+                  <input type="button" value="." class="input-button button__operation">
+                  
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="./script.js"></script>
+</body>
+</html>
